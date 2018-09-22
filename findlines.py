@@ -15,6 +15,7 @@ try:
     for arg in sys.argv:
       if arg in line:
         print(line.rstrip())
+        break
 except:
   print("Error in line: ", linenum)
   raise
